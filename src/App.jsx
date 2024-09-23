@@ -1,5 +1,8 @@
 import styles from './App.module.css';
 import MyComponent from './MyComponent';
+import Counter from './counter';
+import Najjacibrojac from './najjacibrojac';
+import Login from './login';
 
 function App() {
   return (
@@ -7,7 +10,9 @@ function App() {
       <div class={styles.App}>
         Ide gas Baka Prase
       </div>
-      <MyComponent> </MyComponent>
+
+      <Najjacibrojac/>
+      <Login/>
     </>
   );
 }
